@@ -587,10 +587,14 @@ margin-bottom: 10px;
 
   .buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .buttons a {
+    width: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
     font-size: 13px;
     text-decoration: none;
     color: #000;
