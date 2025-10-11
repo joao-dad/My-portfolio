@@ -609,6 +609,32 @@ margin-bottom: 10px;
     color: white;
   }
 
+  /*Mais projectos*/
+
+  .proj-2{
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    transition: all .1s;
+  }
+
+  .proj-2 li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+    border-bottom: solid 1px #fff;
+    font-size: 13px;
+  }
+
+  .proj-2 li a:hover{
+    border-bottom: none;
+    color: #ddd;
+  }
+
   @media screen and (max-width: 768px) {
     .proj h1{
         font-size: 20px;
@@ -630,6 +656,9 @@ margin-bottom: 10px;
         padding: 7px 5px;
         font-size: 13px;
     }
+     .proj-2 li a{
+        font-size: 13px;
+     }
   }
 
 
